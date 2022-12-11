@@ -27,4 +27,4 @@ jobs:
       - name: Run a multi-line script
         uses: Anders-Bloch/create-approval-issue@main
         with: 
-          repo_token: secrets.GITHUB_TOKEN
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
